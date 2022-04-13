@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "../../services/api";
 import { Container } from "./style";
 import Divider from '../../assets/pattern-divider-desktop.svg'
+import { Dice } from "../Dice";
 
 interface AdvicesProps {
     id: number,
@@ -22,7 +23,7 @@ export function AdviceCard(){
           <p>Advice #{advices.id}</p>
           <p>"{advices.advice}"</p>
           <img src={Divider} alt="" />
-          <div></div>
+          <Dice />
         </Container>
     );
 }
