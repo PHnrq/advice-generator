@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
         //Colors
         --light-cyan: hsl(193, 38%, 86%);
         --neon-green: hsl(150, 100%, 66%);
-        --grayish-blue: hsl(217, 19%, 38%);
+        --grayish-blue: hsl(217, 19%, 30%);
         --dark-grayish-blue: hsl(217, 19%, 24%);
         //Fonts
         font-family: 'Manrope', sans-serif;
