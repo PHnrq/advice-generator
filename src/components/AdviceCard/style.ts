@@ -18,6 +18,14 @@ export const Container = styled.div`
     font-weight: 800;
     text-align: center;
 
+    .divider-mobile {
+        display: none;
+    }
+
+    .divider-desktop {
+        display: block;
+    }
+
     & p:nth-child(1) {
         color: var(--neon-green);
     }
@@ -27,6 +35,14 @@ export const Container = styled.div`
     }
 
     @media (max-width: 675px) {
-        max-width: 375px;
+        max-width: 350px;
+
+        .divider-mobile{
+            display: block;
+        }
+
+        .divider-desktop{
+            display: none;
+        }
     }
 `;
