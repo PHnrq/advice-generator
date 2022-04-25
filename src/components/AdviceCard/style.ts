@@ -28,6 +28,7 @@ export const Container = styled.div`
 
     & p:nth-child(1) {
         color: var(--neon-green);
+        font-size: 1.8rem;
     }
 
     & p:nth-child(2) {
@@ -44,5 +45,9 @@ export const Container = styled.div`
         .divider-desktop{
             display: none;
         }
+    }
+
+    @media (min-width: 1441px) {
+        max-width: 1400px;
     }
 `;
