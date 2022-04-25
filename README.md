@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://advice-generator-eosin-nu.vercel.app/)
-- Solution URL: [Add solution URL here](https://github.com/PHnrq/advice-generator)
+- Live Site URL: [Advice Generator](https://advice-generator-eosin-nu.vercel.app/)
+- Solution URL: [Repositories](https://github.com/PHnrq/advice-generator)
 
 ### Built with
 
